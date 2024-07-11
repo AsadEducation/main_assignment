@@ -88,7 +88,7 @@ header {
     display: flex;
     flex-direction: column;
     border-radius: 12px;
-    gap:30px;
+    gap: 30px;
 
 
     background: rgba(13, 19, 33, 0.02);
@@ -109,11 +109,12 @@ header {
     flex-direction: row-reverse;
 }
 
-.content_des , .content_reverse {
-    border:0.5px solid  rgb(226, 220, 220);
-    box-shadow: 0 0.5px 3px  rgb(214, 204, 204);
+.content_des,
+.content_reverse {
+    border: 0.5px solid rgb(226, 220, 220);
+    box-shadow: 0 0.5px 3px rgb(214, 204, 204);
     border-radius: 12px;
-    padding:43px;
+    padding: 43px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
@@ -151,29 +152,87 @@ header {
     opacity: 0.7;
 }
 
-.text_des{
+.text_des {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
 }
 
 /* inspiration styles */
 
-.inspiration{
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inspiration>p {
+    padding: 0 130px;
+}
+
+
+.video {
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+
+/* target section styles */
+
+.target_title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.anchor {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.targets {
+    display: flex;
+    gap:24px;
+    /* border: 2px solid red; */
+}
+
+.target {
+    border-radius: 12px;
+    padding: 19px;
+}
+
+.target1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target2{
+   background: rgba(0, 76, 232, 0.05);;
+}
+.target3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.tech{
     display: flex;
     flex-direction: column;
     gap:20px;
 }
 
-.inspiration >p{
+.tech>p {
     padding: 0 130px;
-}
-
-
-.video{
-    padding: 32px;box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 12px;
-    margin-top:25px;
-    margin-bottom:60px;
+    /* border: 2px solid red; */
+    margin-bottom:20px;
 }
