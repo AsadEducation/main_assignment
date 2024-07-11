@@ -32,7 +32,7 @@
 
 
 header {
-    background-image: url("/assets/hero.png");
+    background-image: url("../assets/hero.png");
     text-align: center; 
     border: 4px dashed rgb(165, 171, 185);
 }
