@@ -156,3 +156,24 @@ header {
     flex-direction: column;
     gap:10px;
 }
+
+/* inspiration styles */
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.inspiration >p{
+    padding: 0 130px;
+}
+
+
+.video{
+    padding: 32px;box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 12px;
+    margin-top:25px;
+    margin-bottom:60px;
+}
